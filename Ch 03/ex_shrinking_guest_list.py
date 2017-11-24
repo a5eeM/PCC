@@ -63,5 +63,39 @@ print(message)
 message = "Dear " + guest_list[5].title() + ", you are invited for Dinner tomorrow at 8pm"
 print(message)
 
-# numbber of invitees
-print("\nI have now sent invite to " +str(len(guest_list)) + " people. I hope they show up")
+# JUST" FOUND OUT - table won't be coming in time, have to pop
+print("Due to table not arriving on time, only two people can be invited to the Dinner tomorrow")
+
+# sorry for page
+popped_guest = guest_list.pop()
+message = "I am deeply sorry " + popped_guest + ", I can not invite you for tomorrow's Dinner"
+print(message)
+
+# sorry for musk
+popped_guest = guest_list.pop()
+message = "I am deeply sorry " + popped_guest + ", I can not invite you for tomorrow's Dinner"
+print(message)
+
+# sorry for einstein
+popped_guest = guest_list.pop()
+message = "I am deeply sorry " + popped_guest + ", I can not invite you for tomorrow's Dinner"
+print(message)
+
+# sorry for brin
+popped_guest = guest_list.pop()
+message = "I am deeply sorry " + popped_guest + ", I can not invite you for tomorrow's Dinner"
+print(message)
+
+# invite still holds for the first two guests
+# inviting turing
+message = "Dear " + guest_list[0].title() + ", you are still invited for Dinner tomorrow at 8pm"
+print(message)
+
+# inviting newton
+message = "Dear " + guest_list[1].title() + ", you are still invited for Dinner tomorrow at 8pm"
+print(message)
+
+# after dinner
+del guest_list[1]
+del guest_list[0]
+print(guest_list)
