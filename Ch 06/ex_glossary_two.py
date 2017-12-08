@@ -1,8 +1,8 @@
 glossary = {
     "object": "In the class-based object-oriented programming paradigm, 'object' " +
-              "refest to a particular instance of a class where the object can " +
+              "refers to a particular instance of a class where the object can " +
               "a combination of variables, functions, and data structures.",
-    "string": "Any finite sequence of charactes",
+    "string": "Any finite sequence of charactes.",
     "comment": "A note in a program that the language compiler/interpreter ignores.",
     "list": "A collection of items in a particular order",
     "dictionary": "A collection of key-value pairs."
@@ -11,7 +11,7 @@ glossary = {
 for word, meaning in glossary.items():
     print("\n" + word + ":" + "\n\t" + meaning)
 
-glossary["key"] = "The firs item in a key-value pair in a dictionary."
+glossary["key"] = "The first item in a key-value pair in a dictionary."
 glossary["value"] = "An item associated with a key in a dictionary."
 glossary["conditional test"] = "A comparison between two values."
 glossary["float"] = "A numerical value with a decimal component."
